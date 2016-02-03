@@ -10,10 +10,11 @@ int main()  //all user interactions here
     std::cout << "Please enter an integer: ";
     std::cin >> num;
     std::cout << "--> " << romanNumeral;
-    }
-    while (num <= 1 && num >= 3999)
-
     std::cout << "Would you like to convert another integer (Y/N)?
+    }
+    while (ans == 'y' || ans == 'Y')
+
+    
     
     return 0;
 }
