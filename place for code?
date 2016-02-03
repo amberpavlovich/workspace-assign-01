@@ -1,1 +1,24 @@
-bloop
+#include <iostream>
+
+int main()  //all user interactions here
+{
+    int num;
+    std::string romanNumeral; 
+    
+    do
+    {
+    std::cout << "Please enter an integer: ";
+    std::cin >> num;
+    std::cout << "--> " << romanNumeral;
+    }
+    while (num <= 1 && num >= 3999)
+
+    std::cout << "Would you like to convert another integer (Y/N)?
+    
+    return 0;
+}
+
+void numeralConversion()    //convert integers to roman numerals here
+{
+    
+}
