@@ -3,23 +3,30 @@
 int main()  //all user interactions here
 {
     int num;
-    std::string romanNumeral; 
+    std::string convertedNumeral; 
+    char ans = 'y'; // uhhhh??
     
-    do
+    std::string thous[] = {" ", "M", "MM", "MMM", }                                     //use these down in numeralConversion
+    std::string hund[] = {" ", "C", "CC", "CCC", "CD", "D", "DCC", "DCCC", "CM" }       //did I get all these right?
+    std::string tens[] = {" ", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "XC", "C" }
+    std::string ones[] = {" ", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
+    
+    do          //loops the program
     {
     std::cout << "Please enter an integer: ";
     std::cin >> num;
-    std::cout << "--> " << romanNumeral;
+    std::cout << "--> " << convertedNumeral;
     std::cout << "Would you like to convert another integer (Y/N)?
+    std::cin >> ans;
     }
-    while (ans == 'y' || ans == 'Y')
-
     
+    while (ans == 'y' || ans == 'Y')
     
     return 0;
 }
 
 void numeralConversion()    //convert integers to roman numerals here
 {
+    
     
 }
