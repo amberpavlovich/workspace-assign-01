@@ -6,10 +6,10 @@ int main()  //all user interactions here
     std::string convertedNumeral; 
     char ans = 'y'; // uhhhh??
     
-    std::string thous[] = {" ", "M", "MM", "MMM", }                                     //use these down in numeralConversion
-    std::string hund[] = {" ", "C", "CC", "CCC", "CD", "D", "DCC", "DCCC", "CM" }       //did I get all these right?
-    std::string tens[] = {" ", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "XC", "C" }
-    std::string ones[] = {" ", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
+    std::string thous[] = {" ", "M", "MM", "MMM" };                                     //use these down in numeralConversion
+    std::string hund[] = {" ", "C", "CC", "CCC", "CD", "D", "DCC", "DCCC", "CM" };      //did I get all these right?
+    std::string tens[] = {" ", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "XC" };
+    std::string ones[] = {" ", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
     
     do          //loops the program
     {
