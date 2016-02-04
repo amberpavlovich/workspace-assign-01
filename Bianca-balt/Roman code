@@ -19,7 +19,7 @@ int main()
 	
 	do
 	{
-		cout << "Please enter an integer between 1 and 3999" << endl;
+		cout << "Please enter an integer between 1 and 3999." << endl;
 		cin >> num;
 		string Roman = "";
 
